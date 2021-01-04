@@ -13,7 +13,7 @@
     var ZIELZEIT = "22:59:59" //Zeitpung auf wann der Inc geschickt werden soll (Es geht nur der Zeitpunkt, nicht das Datum).
     var GENAUTIMEN = false; //Will man versuchen genau zu timen --> True, Will man einfach nur die Sekunde treffen --> False
     var MILLIS = 800; //Millisekunde die man treffen will
-    var MILLIS = MILLIS - 10;
+    MILLIS = MILLIS - 10;
     var test = document.getElementById("date_arrival").innerText;
     test = test.split(" ");
     test = test[test.length - 1];
